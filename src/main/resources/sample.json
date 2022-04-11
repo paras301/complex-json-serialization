@@ -1,0 +1,36 @@
+{
+  "responseData": {
+    "feed": {
+      "feedUrl": "http://ramrojob.com/feed",
+      "title": "Ramro Job",
+      "link": "http://ramrojob.com",
+      "author": "",
+      "description": "...your pathway to success",
+      "type": "rss20",
+      "entries": [{
+        "title": "Monitoring and Evaluation Specialist Wanted at GRM International",
+        "link": "http://ramrojob.com/job/2013/05/12/monitoring-and-evaluation-specialist-wanted-at-grm-international.html",
+        "author": "Bandana Aryal",
+        "publishedDate": "Sun, 12 May 2013 01:10:24 -0700",
+        "contentSnippet": "sample content snippet -- 1",
+        "content": "sample content -- 1",
+        "categories": [
+          "The Himalayan Times", "Competencies"
+        ]
+      }, {
+        "title": "Director of Finance and Admin Wanted at Abt Associates",
+        "link": "http://ramrojob.com/job/2013/05/12/director-of-finance-and-admin-wanted-at-abt-associates.html",
+        "author": "Bandana Aryal",
+        "publishedDate": "Sun, 12 May 2013 01:02:28 -0700",
+        "contentSnippet": "sample content snippet -- 2",
+        "content": "sample content -- 2",
+        "categories": [
+          "Skills", "Education"
+        ]
+      }
+      ]
+    }
+  },
+  "responseDetails": null,
+  "responseStatus": 200
+}

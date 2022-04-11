@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of("${java_version}")
+    }
+}
+
+ext['log4j2.version'] = "${log4j2_version}"
+ext['tomcat.version'] = "${tomcat_version}"
+
+dependencies {
+    implementation "org.projectlombok:lombok:${lombok_version}"
+    annotationProcessor "org.projectlombok:lombok:${lombok_version}"
+
+    //Jackson
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.2.2'
+
+    //GSON
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+    //JSON Flattener
+    implementation 'com.github.wnameless.json:json-flattener:0.13.0'
+
+    //JSON Path
+    implementation 'com.jayway.jsonpath:json-path:2.4.0'
+}
